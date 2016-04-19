@@ -1,6 +1,6 @@
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
-# agnoster's Theme - https://gist.github.com/3712874
+# agnoster lite Theme - https://github.com/Stealthii/zsh-themes
 # A Powerline-inspired theme for ZSH
 #
 # # README
@@ -194,7 +194,7 @@ build_prompt() {
   RETVAL=$?
   prompt_status
   prompt_virtualenv
-  prompt_context
+  #prompt_context
   prompt_dir
   prompt_git
   prompt_hg
